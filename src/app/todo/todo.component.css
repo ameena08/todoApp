@@ -1,0 +1,52 @@
+/* Style the to-do list component */
+:host {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 150px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 40px;
+    margin-left: 450px;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  span {
+    margin-left: 10px;
+  }
+  
+  span.completed {
+    text-decoration: line-through;
+    color: #888888;
+  }
+  
+  button {
+    margin-left: 60px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  
